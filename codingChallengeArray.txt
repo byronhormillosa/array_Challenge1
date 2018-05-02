@@ -1,0 +1,14 @@
+/*Write a function that takes in an array of letters and returns a string all the letters seperated by a space.*/
+
+
+
+function arrLetters(arr) {
+  
+  
+  var stringArr = arr.join(' ');
+  
+  return stringArr;
+}
+
+var arr2 = ['P', 'h', 'i', 'l', 'i', 'p', 'p', 'i', 'n', 'e', 's']
+console.log(arrLetters(arr2));
